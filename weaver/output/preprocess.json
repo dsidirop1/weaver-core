@@ -1,0 +1,95 @@
+{
+  "output_names": [
+    "is_signal_new",
+    "is_bkg"
+  ],
+  "input_names": [
+    "pf_points",
+    "pf_features",
+    "pf_mask"
+  ],
+  "pf_points": {
+    "var_names": [
+      "Part_Etarel",
+      "Part_Phirel"
+    ],
+    "var_infos": {
+      "Part_Etarel": {
+        "median": 0,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -1e+32,
+        "upper_bound": 1e+32,
+        "pad": 0
+      },
+      "Part_Phirel": {
+        "median": 0,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -1e+32,
+        "upper_bound": 1e+32,
+        "pad": 0
+      }
+    },
+    "var_length": 100
+  },
+  "pf_features": {
+    "var_names": [
+      "Part_Etarel",
+      "Part_Phirel",
+      "Part_E_log",
+      "Part_P_log"
+    ],
+    "var_infos": {
+      "Part_Etarel": {
+        "median": 0,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -1e+32,
+        "upper_bound": 1e+32,
+        "pad": 0
+      },
+      "Part_Phirel": {
+        "median": 0,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -1e+32,
+        "upper_bound": 1e+32,
+        "pad": 0
+      },
+      "Part_E_log": {
+        "median": 2,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "Part_P_log": {
+        "median": 2,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      }
+    },
+    "var_length": 100
+  },
+  "pf_mask": {
+    "var_names": [
+      "pf_mask"
+    ],
+    "var_infos": {
+      "pf_mask": {
+        "median": 0,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -1e+32,
+        "upper_bound": 1e+32,
+        "pad": 0
+      }
+    },
+    "var_length": 100
+  }
+}
